@@ -1,0 +1,6 @@
+{
+  "name": "Depósito de Gás Pantaleão",
+  "description": "Sistema de pedidos e agendamento de entrega de gás de cozinha com painel administrativo completo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

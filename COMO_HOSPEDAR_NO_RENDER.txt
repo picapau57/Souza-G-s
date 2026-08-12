@@ -1,0 +1,22 @@
+====================================================================
+  GUIA PASSO A PASSO PARA SUBIR O SOUZA GÁS NO RENDER.COM
+====================================================================
+
+OPÇÃO 1: RENDER - STATIC SITE (Gratuito e Mais Rápido)
+------------------------------------------------------
+1. Crie uma conta gratuita em https://render.com
+2. Descompacte este arquivo ZIP e envie os arquivos para um repositório no seu GitHub (ou crie um novo repositório chamado "souza-gas").
+3. No painel do Render, clique em "New +" -> "Static Site".
+4. Conecte sua conta do GitHub e selecione o repositório do "souza-gas".
+5. Preencha os campos exatamente assim:
+   - Name: souza-gas
+   - Build Command: npm run build
+   - Publish Directory: dist
+6. Clique em "Create Static Site".
+7. Em menos de 2 minutos seu site estará no ar com link SSL grátis (https://souza-gas.onrender.com)!
+
+------------------------------------------------------
+OPÇÃO 2: SUBIR O ZIP VIA INTERFACE DO RENDER / EXPORTAÇÃO
+------------------------------------------------------
+1. No menu superior da ferramenta AI Studio, você pode ir em "Settings" -> "Export" e baixar o ZIP ou exportar direto para seu GitHub.
+2. No Render, crie o Static Site conectando o GitHub como mostrado na Opção 1.
