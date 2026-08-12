@@ -61,7 +61,7 @@ export const OrderTracker: React.FC<OrderTrackerProps> = ({
         </div>
         <h2 className="text-xl font-black text-white">Acompanhar Status do Pedido</h2>
         <p className="text-xs text-slate-400">
-          Digite o código do pedido (ex: <code className="text-amber-300 font-mono">PANT-9481</code>) ou o número de telefone do cliente
+          Digite o código do pedido (ex: <code className="text-amber-300 font-mono">SOUZA-8810</code>) ou o número de telefone do cliente
         </p>
 
         <form onSubmit={handleSearch} className="flex items-center gap-2 max-w-md mx-auto pt-2">

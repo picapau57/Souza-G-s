@@ -23,7 +23,7 @@ export const ServiceSelector: React.FC<ServiceSelectorProps> = ({
             <span className="flex items-center justify-center w-6 h-6 rounded-full bg-amber-500 text-slate-950 text-xs font-bold">1</span>
             Escolha como prefere receber o seu gás
           </h2>
-          <p className="text-xs text-slate-400 mt-0.5">Selecione para ver os valores atualizados do Depósito Pantaleão</p>
+          <p className="text-xs text-slate-400 mt-0.5">Selecione para ver os valores atualizados do {config.companyName}</p>
         </div>
       </div>
 

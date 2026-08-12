@@ -147,7 +147,7 @@ export default function App() {
             </div>
 
             <p className="text-xs text-slate-400">
-              Digite o código do seu pedido (ex: <code className="text-amber-300">PANT-9481</code>) ou seu número de telefone com DDD.
+              Digite o código do seu pedido (ex: <code className="text-amber-300">SOUZA-8810</code>) ou seu número de telefone com DDD.
             </p>
 
             <form onSubmit={handleExecuteSearch} className="space-y-3">

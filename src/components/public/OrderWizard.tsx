@@ -178,10 +178,10 @@ export const OrderWizard: React.FC<OrderWizardProps> = ({
         <div className="space-y-2 max-w-xl">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-amber-500/20 text-amber-300 border border-amber-500/30">
             <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            PEDIDO FÁCIL PELO CELULAR
+            {config.companyName.toUpperCase()} • PEDIDO FÁCIL PELO CELULAR
           </div>
           <h1 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
-            Gás de Cozinha no <span className="text-amber-400">Depósito Pantaleão</span>
+            Gás de Cozinha no <span className="text-amber-400">{config.companyName}</span>
           </h1>
           <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
             Compre direto na portaria com desconto ou agende a entrega em domicílio sem complicações.
